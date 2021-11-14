@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <form class="m-2">
+        <label for="n1">Noun</label><br>
+        <input type="text" id="n1" name="n1"><br>
+        <label for="n2">Noun</label><br>
+        <input type="text" id="n2" name="n2"><br>
+        <label for="v1">Verb</label><br>
+        <input type="text" id="v1" name="v1"><br>
+        <label for="v2">Verb</label><br>
+        <input type="text" id="v2" name="v2"><br>
+        <label for="a1">Adjective</label><br>
+        <input type="text" id="a1" name="a1"><br>
+        <label for="a2">Adjective</label><br>
+        <input type="text" id="a2" name="a2"><br>
+        <br>
+        <div id="submit" onclick="changeMadLib()" class="btn btn-outline-primary">Submit</div>
+    </form>
+    <p id="madlib" class="m-2">
+        <span id="noun1">_</span>
+        <span id="noun2">_</span>
+        <span id="verb1">_</span>
+        <span id="verb2">_</span>
+        <span id="adjective1">_</span>
+        <span id="adjective2">_</span>
+    </p>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
